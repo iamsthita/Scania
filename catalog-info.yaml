@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: scania
+  annotations:
+    github.com/project-slug: iamsthita/Scania
+spec:
+  type: other
+  owner: guest
+  lifecycle: experimental

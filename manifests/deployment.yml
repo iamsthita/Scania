@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: iamsthitascania 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iamsthitascania
+  template:
+    metadata:
+      labels:
+        app: iamsthitascania 
+    spec:
+      containers:
+        - name: iamsthitascania 
+          image: scaniatest.azurecr.io/iamsthitascania
+          ports:
+          - containerPort: 5000

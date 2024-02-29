@@ -27,7 +27,7 @@ The application has been written in Python with Flask framework. The Dockerfile 
 - Added an API in the backend to list the deployed images:
   - `router.ts`
 
-- The component in Backstage: 
+- The Docker component in Backstage: 
   - `DockerHubImagesComponent.tsx`
 
 - Component to run the image locally:
@@ -37,7 +37,7 @@ The application has been written in Python with Flask framework. The Dockerfile 
   - `server.js`
 
 ## 4. Create a “CI/CD Pipeline”:
-   Used GitHub Actions to build and push it to Docker Hub.
+   Used GitHub Actions to build the docker image and push it to Docker Hub.
   
 ## Deploy the Container: 
 Used Azure DevOps pipeline to build and push it to Azure Container Registry and deploy it to Kubernetes cluster.

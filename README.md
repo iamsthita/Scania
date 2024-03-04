@@ -27,13 +27,13 @@ The application has been written in Python with Flask framework. The Dockerfile 
 - Added an API in the backend to list the deployed images:
   - `router.ts`
 
-- The Docker component in Backstage: 
+- The backend component in Backstage to list all images: 
   - `DockerHubImagesComponent.tsx`
 
 - Component to run the image locally:
   - `RunDockerComponent.tsx`
 
-- Backend part:
+- Backend part part of run image locally:
   - `server.js`
 
 ## 4. Create a “CI/CD Pipeline”:
